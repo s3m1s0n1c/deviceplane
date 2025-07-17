@@ -29,7 +29,7 @@ const getLocalCommand = ({ id, projectId }) =>
 
 const getCommand = ({ id, projectId }) =>
   [
-    'curl https://downloads.deviceplane.com/install.sh',
+    'curl https://downloads.deviceplane.e-l33t.org/install.sh',
     '|',
     `VERSION=${config.agentVersion}`,
     `PROJECT=${projectId}`,
